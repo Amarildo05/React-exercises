@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-function CurrencyConverter() {
-  const currencyRatio = 99.7;
+export default function CurrencyConverter() {
+  // const currencyRatio = 99.7;
   //multiply input value by 99.7
   const [value, setValue] = useState(0);
 
@@ -21,5 +21,3 @@ function CurrencyConverter() {
     </div>
   );
 }
-
-export default CurrencyConverter;

@@ -8,7 +8,16 @@
 // import ChangingNr from "./ChangingNR";
 // import Products from "./Products";
 // import Event from "./Event";
-import Products from "./Products/Products";
+// import Products from "./Products/Products";
+// import ShowHidePsw from "./ShowHidePsw";
+// import TemperatureConverter from "./TemperatureConverter";
+// import FormValidation from "./FormValidation";
+// import DisableButton from "./DisableButton";
+// import ColorPicker from "./ColorPicker";
+// import BmiCalculator from "./BmiCalculator";
+// import ListOrdering from "./ListOrdering";
+// import WordCounter from "./WordCounter";
+// import Pagination from "./Pagination";
 
 function App() {
   return (
@@ -27,8 +36,18 @@ function App() {
       </ShowMore> */}
       {/* <Products /> */}
       {/* <CurrencyConverter /> */}
-      <Products />
+      {/* <Products /> */}
       {/* <Event /> */}
+
+      {/* <ShowHidePsw />  */}
+      {/* <TemperatureConverter /> */}
+      {/* <FormValidation /> */}
+      {/* <DisableButton /> */}
+      {/* <ColorPicker /> */}
+      {/* <BmiCalculator /> */}
+      {/* <ListOrdering /> */}
+      {/* <WordCounter /> */}
+      {/* <Pagination /> */}
     </>
   );
 }

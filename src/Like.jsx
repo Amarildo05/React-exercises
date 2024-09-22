@@ -1,7 +1,7 @@
 import { HeartFilled, HeartOutlined } from "@ant-design/icons";
 import { useState } from "react";
 
-function Like() {
+export default function Like() {
   //const [state,setState] = useState(defaultValue);
   const [isLiked, setIsLiked] = useState(false);
 
@@ -13,7 +13,13 @@ function Like() {
     setIsLiked(false);
   }
 
-  return <div>{isLiked ? <HeartFilled onClick={unLikePost} /> : <HeartOutlined onClick={likePost} />}</div>;
+  return (
+    <div>
+      {isLiked ? (
+        <HeartFilled onClick={unLikePost} />
+      ) : (
+        <HeartOutlined onClick={likePost} />
+      )}
+    </div>
+  );
 }
-
-export default Like;
