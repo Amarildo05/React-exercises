@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "094f",
+      "name": "Amarildo",
+      "role": "Admin",
+      "is_validated": "true"
+    },
+    {
+      "name": "Amarildo 2",
+      "role": "User",
+      "is_validated": "true",
+      "id": "6206"
+    },
+    {
+      "id": "4e13",
+      "name": "Anonymous",
+      "role": "Guest",
+      "is_validated": "fasle"
+    }
+  ]
+}

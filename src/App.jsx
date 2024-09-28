@@ -18,6 +18,9 @@
 // import ListOrdering from "./ListOrdering";
 // import WordCounter from "./WordCounter";
 // import Pagination from "./Pagination";
+// import Signup from "./Signup/Signup";
+
+import Crud from "./CreateCRUD/Crud";
 
 function App() {
   return (
@@ -38,7 +41,6 @@ function App() {
       {/* <CurrencyConverter /> */}
       {/* <Products /> */}
       {/* <Event /> */}
-
       {/* <ShowHidePsw />  */}
       {/* <TemperatureConverter /> */}
       {/* <FormValidation /> */}
@@ -48,6 +50,9 @@ function App() {
       {/* <ListOrdering /> */}
       {/* <WordCounter /> */}
       {/* <Pagination /> */}
+
+      {/* <Signup /> */}
+      <Crud />
     </>
   );
 }
